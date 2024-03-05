@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organic Farming Education</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="chat.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
+<script src="script.js" defer></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+       
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #3e8e41;
+            color: #fff;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        } 
+        #id2{
+            color: white; 
+            font-size: 20px;
+        }
+         h2 {
+            color:white;
+        }  
+        #id3{
+            color: #3e8e41;
+        } 
+        h3{
+            color: white;
+        } 
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        } 
+        #id1{ 
+            height: 70px; 
+            background-image: url("img/bk4.avif") ;
+         
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+            display:flex;
+            align-items: center; 
+            justify-content: space-between; 
+            padding: 7px 7px;   
+            
+        }  
+        
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <button class="chatbot-toggler">
+        <span class="material-symbols-outlined">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>ChatBot</h2>
+            <span class="material-symbols-outlined">close</span>
+
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined"></span>
+            <p>Hi there 👋 <br>
+            How can I help you today?</p>
+            </li>
+            <!-- <li class="chat outgoing">
+                <p>Lorem ipsum dolor sit amet.</p>
+            </li> -->
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." required></textarea>
+        <span id="send-btn" class="material-symbols-outlined">send</span>
+        </div>
+    </div>
+
+    <div id="id1">
+        <div id="id2"><i class="ri-arrow-left-line"></i></div>
+        <div><h2>Organic Farming</h2></div>
+        <div><input type="text"  placeholder="Search..." style="border: none; border-radius: 10px; height: 30px;"></div>
+    </div>
+    <div class="container">
+        <h2 id="id3">Introduction to Organic Farming</h2>
+        <p>Organic farming is a method of crop and livestock production that involves much more than choosing not to use pesticides, fertilizers, genetically modified organisms, antibiotics, and growth hormones.</p>
+        <br>
+        <h3 id="id3">Benefits of Organic Farming</h3>
+        <ul>
+            <li>Environmental sustainability</li>
+            <li>Healthier soil</li>
+            <li>Conservation of biodiversity</li>
+            <li>Reduced pollution</li>
+            <li>Improved animal welfare</li>
+        </ul>
+        <br>
+        <h3 id="id3">Principles of Organic Farming</h3>
+        <!-- <ol>
+            <li>Health</li>
+            <li>Ecology</li>
+            <li>Fairness</li>
+            <li>Care</li>
+        </ol> -->
+        <h2>Videos</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/iPeBBw5WxZo?si=vgUJOnhAcyAVYFO0" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WhOrIUlrnPo?si=mTyjXB3lxKVHYV58" frameborder="0" allowfullscreen></iframe>
+        
+        <h2>Articles</h2>
+        <h3 id="id3">What is Organic Farming?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, esse? Pariatur modi incidunt deleniti reprehenderit iusto quos dolor sint. Odio accusamus qui numquam alias saepe hic eveniet, asperiores quod eos consectetur aut rem vel aperiam molestiae praesentium facere quam modi incidunt sequi rerum. Soluta qui illo odio magni vel hic..</p>
+       <br> <h3 id="id3">How to Do Organic Farming</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, non fuga beatae possimus quod expedita dolorem ratione facere esse, repudiandae autem aliquam ipsum architecto perferendis nobis quae earum, laborum tempore praesentium. Quam magni, non asperiores odit voluptatibus, nisi eos, voluptate dolorum est maiores assumenda modi! Fugiat iusto commodi impedit vel? Unde eos similique dicta eum cumque delectus tempora veniam veritatis. Possimus optio dignissimos et sunt ad aspernatur rem consequuntur aliquid, reprehenderit quasi laboriosam soluta laborum, minima voluptates dolore tempora suscipit est? Ut eius perspiciatis nisi eos ad quidem consequuntur, provident natus et dolorum vel laborum inventore ipsam laudantium accusamus vitae!</p>
+    </div>
+    <footer>
+        &copy; 2024 Organic Farming Education
+    </footer>
+</body>
+</html>
